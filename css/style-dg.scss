@@ -113,6 +113,91 @@
 	height: 430px;
 	width: 100%;
 }
+
+.cons-right {
+	background: url(/img/cons-blue.jpg) 0 0 no-repeat;
+	background-size: cover;
+	padding-top: 65px;
+	padding-bottom: 65px;
+}
+.cons-hidden {
+	height: 650px;
+	width: 100%;
+	background: url(/img/cons-pic.jpg) 0 0 no-repeat;
+	background-size: cover;
+	margin-top: -1px;
+}
+.cons-text-block {
+	&:before, &:after {
+		content: '';
+		display: block;
+		background: url(/img/cons-circle.png) 0 0 no-repeat;
+		width: 10px;
+		height: 10px;
+		margin: auto;
+	}
+}
+.cons-text {
+	color: white;
+	font-family: "SFUIText-RegularG2";
+	font-weight: 400;
+	width: 100%;
+	max-width: 320px;
+	margin: auto;
+	margin-top: 45px;
+	margin-bottom: 45px;
+	text-align: center;
+	font-size: 26px;
+	line-height: 36px;
+}
+
+.nothing-right {
+	min-height: 570px;
+	background: url(/img/nothing-m-bg.jpg) 50% 0 no-repeat;
+	background-size: cover;
+	margin-bottom: 50px;
+}
+
+.nothing-title {
+	color: #080f29;
+	font-family: "SFUIText-RegularG2";
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 32px;
+	max-width: 350px;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.nothing-left {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	&:before, &:after {
+		content: '';
+		width: 10px;
+		height: 10px;
+		display: block;
+		margin: auto;
+		background: url(/img/nothing-dots.png) 0 0 no-repeat;
+	}
+}
+.nothing-text-block {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.nothing-text {
+	color: #080f29;
+	font-family: "SFUIText-RegularG2";
+	font-weight: 400;
+	max-width: 350px;
+	width: 100%;
+	margin: auto;
+	max-width: 560px;
+	font-size: 26px;
+	line-height: 32px;
+	text-align: center;
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -230,6 +315,62 @@
 	.delivery-text2 {
 		max-width: 440px;
 	}
+
+	.cons {
+		padding-top: 185px;
+		padding-bottom: 185px;
+		background: url(/img/cons-bg.jpg) 55% 0 no-repeat;
+		background-size: cover;
+	}
+	.cons-text {
+		text-align: left;
+		font-size: 19px;
+		line-height: 26px;
+	}
+	.cons-right {
+		background: none;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.nothing {
+		padding-top: 150px;
+		padding-bottom: 150px;
+		background: url(/img/nothing-bg.jpg) 42% 0 no-repeat;
+		background-size: cover;
+	}
+	.nothing-right {
+		background: none;
+		min-height: unset;
+		margin-bottom: 0;
+		&:before, &:after {
+			content: '';
+			width: 10px;
+			height: 10px;
+			display: block;
+			margin: auto;
+			background: url(/img/nothing-dots.png) 0 0 no-repeat;
+		}
+	}
+	.nothing-text-block {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.nothing-text {
+		max-width: 360px;
+		font-size: 19px;
+		line-height: 26px;
+		text-align: left;
+	}
+	.nothing-left {
+		padding-top: 0;
+		padding-bottom: 0;
+		&:before, &:after {
+			content: none;
+		}
+	}
+	.nothing-title {
+		text-align: left;
+	}
 }
 
 @media only screen and (min-width : 1248px) {
@@ -265,6 +406,16 @@
 	.delivery-imgwrap5 {
 		background-position: 0px -344px;
 		margin-left: 0;
+	}
+	.cons {
+		background: url(/img/cons-bg.jpg) 50% 0 no-repeat;
+		background-size: cover;
+	}
+	.nothing {
+		padding-top: 150px;
+		padding-bottom: 150px;
+		background: url(/img/nothing-bg.jpg) 50% 0 no-repeat;
+		background-size: cover;
 	}
 }
 
