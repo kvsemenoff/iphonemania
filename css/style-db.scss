@@ -111,6 +111,7 @@
 	.section_first_view{
 	background:url("../img/db-first.jpg")no-repeat top center;
 	padding: 80px 0;
+	background-size: cover;
 }
 .db-first-h1{
 	color: #f2f2f2;
@@ -185,6 +186,7 @@
 	.db_footer-view{
 		background: url("../img/footer.jpg")no-repeat top center;
 		padding: 20px 0;
+		height: 125px;
 	}
 	.db-footer_p_one{
 		font-size: 17px;
