@@ -1,8 +1,4 @@
-<section class="section section_padding">
-<div class=" container">
-	<div class="row">
-		<div class="col-md-12">
-		</div>
-	</div>
+<section class="section section_padding map">
+	<div id="map" class="map-wrap"></div>
 </div>
 </section>

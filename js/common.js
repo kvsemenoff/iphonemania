@@ -208,7 +208,30 @@ else {
                 });
               }
             }
+            /* MAP */
+            ymaps.ready(init);
+            var myMap, 
+            myPlacemark;
 
+        function init(){ 
+            myMap = new ymaps.Map ("map", {
+                center: [59.948717, 30.279405],
+                zoom: 16
+            }); 
+            
+            myPlacemark = new ymaps.Placemark([59.948717, 30.279405], {
+                hintContent: 'IphoneMania!',
+                balloonContent: 'IphoneMania!'
+            },
+            {
+                iconImageHref: '/img/map-baloon.png',
+                iconImageSize: [50, 80],
+                iconImageOffset: [-25, -60]
+                }
+        );
+            myMap.controls.add('mapTools');
+            myMap.geoObjects.add(myPlacemark);
+        }
  });
 
 
