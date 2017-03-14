@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,uBAAuB,CACtB,UAAU,CAAC,6CAA4C",
+"mappings": "AAAA,eAAe,CACV,UAAU,CAAE,6CAA4C",
 "sources": ["style-db.scss"],
 "names": [],
 "file": "style-db.css"
