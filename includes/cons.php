@@ -11,7 +11,7 @@
 		</div>
 <div class=" container">
 	<div class="row">
-		<div class="col-md-6"></div>
+		<div class="col-md-6 hidden-xs hidden-sm"></div>
 		<div class="col-md-6 cons-right hidden-xs hidden-sm">
 			<div class="cons-text-block">
 				<p class="cons-text">Консультанты в магазине Всегда 

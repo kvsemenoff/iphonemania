@@ -35,74 +35,10 @@ $(document).ready(function(){
     });
 
     /*TIMER*/
-  var count = 17;
-  var minutes = 11;
-  var hours = 0;
-
-  var end = 0;
-
-  if (count < 10) {
-    $('.dd-sec1').each(function(){
-      $(this).html('0');
-    });
-    $('.dd-sec2').each(function(){
-      $(this).html(count);
-    });
-  }
-  else {
-    $('.dd-sec1').each(function(){
-      count = count + '';
-      $(this).html(count[0]);
-      count*=1;
-    });
-    $('.dd-sec2').each(function(){
-      count = count + '';
-      $(this).html(count[1]);
-      count*=1;
-    });
-  }
-
-  if (minutes < 10) {
-    $('.dd-min1').each(function(){
-     $(this).html('0'); 
-   });
-    $('.dd-min2').each(function(){
-     $(this).html(minutes); 
-   });
-  }
-  else {
-   $('.dd-min1').each(function(){
-     minutes = minutes + '';
-     $(this).html(minutes[0]);
-     minutes*=1;
-   });
-   $('.dd-min2').each(function(){
-     minutes = minutes + '';
-     $(this).html(minutes[1]);
-     minutes*=1;
-   });
- }
-
- if (hours < 10) {
-  $('.dd-hours1').each(function(){
-    $(this).html('0');
-  });
-  $('.dd-hours2').each(function(){
-    $(this).html(hours);
-  }); 
-}
-else {
-  $('.dd-hours1').each(function(){
-    hours = hours + '';
-    $(this).html(hours[0]);
-    hours*=1;
-  });
-  $('.dd-hours2').each(function(){
-    hours = hours + '';
-    $(this).html(hours[1]);
-    hours*=1;
-  });
-}
+    var count = 17;
+    var minutes = 11;
+    var hours = 0;
+    var end = 0;
 
     var counter=setInterval(timer, 1000); //1000 will  run it every 1 second
 
@@ -117,7 +53,7 @@ else {
           $(this).html(count); 
         });
       }
-      else {
+      else if(count >= 10){
         $('.dd-sec1').each(function(){
           count = count + '';
           $(this).html(count[0]);
@@ -143,7 +79,7 @@ else {
 
 
               }
-              if (minutes > 10) {
+              if (minutes >= 10) {
                 // $("#dd-min").html(minutes);
                 $('.dd-min1').each(function(){
                   minutes = minutes + '';
@@ -156,7 +92,7 @@ else {
                  minutes*=1;
                });
               }
-              if (minutes < 0) {
+              if (minutes == 0) {
                 hours = hours - 1;
                 if (hours < 10 && hours >=0) {
                     // $("#dd-hours").html('0'+hours);
@@ -187,7 +123,7 @@ else {
                   }
                   if (end) { minutes = '00';}
                   else {
-                    minutes = 59;
+                    minutes = 59 + '';
                   }
                   $('.dd-min1').each(function(){
                     $('.dd-min1').html(minutes[0]);
@@ -198,7 +134,7 @@ else {
                 }
                 if (end) { count = '00';}
                 else {
-                  count = 59;
+                  count = 59 + '';
                 }
                 $('.dd-sec1').each(function(){
                   $(this).html(count[0]);
