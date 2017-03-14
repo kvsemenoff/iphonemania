@@ -1,7 +1,7 @@
 @font-face {
-  font-family: "fontawesome";
-  src: url("../fonts/fontawesome/fontawesome.eot");
-  src: local("☺"), url("../fonts/fontawesome/fontawesome.woff") format("woff"), url("../fonts/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype"), url("../fonts/OpenSans-Bold/OpenSans-Bold.svg") format("svg");
+  font-family: "MyriadProRegular";
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+  src: local("☺"), url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype"), url("../fonts/OpenSans-Bold/OpenSans-Bold.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
   @font-face {
