@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,uBAAuB,CACtB,UAAU,CAAC,6CAA4C",
+"sources": ["style-db.scss"],
+"names": [],
+"file": "style-db.css"
+}
