@@ -1,7 +1,4 @@
-.our {
-	background-image: url(/img/our-bg-m.jpg);
-	background-size: cover;
-}
+
 .our-title {
 	color: #fff;
 	font-family: "SF-UI-Text-Semibold";
@@ -26,6 +23,8 @@
 .our-right {
 	padding-top: 40px;
 	padding-bottom: 40px;
+	background-image: url(/img/our-bg-m.jpg);
+	background-size: cover;
 }
 .our-item {
 	margin-top: 25px;
@@ -251,6 +250,9 @@
 	
 	.our-left {
 		background:none;
+	}
+	.our-right {
+		background: none;
 	}
 	.our-item1 {
 		margin-left: 95px;
