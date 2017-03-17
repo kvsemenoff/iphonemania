@@ -104,7 +104,7 @@
 		owl2.owlCarousel({
 			loop:true,
 			nav:true, 
-			autoplay:false,
+			autoplay:true,
 			smartSpeed:1000,
 			margin:25,
         center:false,     //если нужны обрезаные края

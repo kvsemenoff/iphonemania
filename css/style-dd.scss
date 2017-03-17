@@ -127,7 +127,9 @@ h2{
 .dis-block{
 	display: none;
 }
-
+.dd-slide-wrap{
+	display: none;
+}
 
 @media only screen and (min-width : 320px) {
 }
@@ -148,13 +150,44 @@ h2{
 
 @media only screen and (min-width : 992px) {
 	.dd-slide-wrap{
+		display: block;
 		width: 518px;
 		float: left;
+		margin-top: 37px;
+		#slider{
+			.owl-dots{
+				display: none;
+				position: absolute;
+				left:26%;
+				transform: translate(-50);
+				bottom:-31px;
+				.owl-dot{
+					display: inline-block;
+					margin-left: 5px;
+					span{
+						float: left;
+						display: inline-block;
+						background:#ACACAC;
+						width: 56px;
+						height: 2px; 
+					}
+				}
+				.active{
+					span{
+						background:#7D33DA;
+						width: 56px;
+						height: 2px; 
+					}
+				}
+			}
+		}
+		.owl-item img{
+			width: unset !important;
+		}
 		.item{
-			// height: 524px;
-			outline: 1px solid red;
+			text-align: center;
 			img{
-				// height: 500px;
+				display: inline-block;
 			}
 		}
 	}
