@@ -19,7 +19,7 @@
 							<a href="#" price="7 490" >/32Gb </a>
 						</div>
 						<h3 class="dfprice"><i>5 490</i>  <b></b></h3>
-						<a href="#" class="dfbutton">Заказать</a>
+						<a href="#js-form1" name="js-modal" class="dfbutton">Заказать</a>
 					</div>
 					<div class="dfgift">
 						<img src="img/gift.png" alt="">
@@ -45,7 +45,7 @@
 							<a href="#" price="11 490">/64Gb </a>
 						</div>
 						<h3 class="dfprice"><i>5 490</i>  <b></b></h3>
-						<a href="#" class="dfbutton">Заказать</a>
+						<a href="#js-form1" name="js-modal" class="dfbutton">Заказать</a>
 					</div>
 
 					
@@ -70,7 +70,7 @@
 							<a href="#" price="11 490" >/64Gb </a>
 						</div>
 						<h3 class="dfprice"><i>5 490</i> <b></b></h3>
-						<a href="#" class="dfbutton">Заказать</a>
+						<a href="#js-form1" name="js-modal" class="dfbutton">Заказать</a>
 					</div>
 
 					
@@ -98,7 +98,7 @@
 							<a href="#" price="17 490">/128Gb </a>
 						</div>
 						<h3 class="dfprice"><i>5 490</i>  <b></b></h3>
-						<a href="#" class="dfbutton">Заказать</a>
+						<a href="#js-form1" name="js-modal" class="dfbutton">Заказать</a>
 					</div>
 
 					
@@ -122,7 +122,7 @@
 							<a href="#" price="7 490" >/32Gb </a>
 						</div>
 						<h3 class="dfprice"><i>5 490</i>  <b></b></h3>
-						<a href="#" class="dfbutton">Заказать</a>
+						<a href="#js-form1" name="js-modal" class="dfbutton">Заказать</a>
 					</div>					
 				</div>
 				<div class="clear"></div>
@@ -144,7 +144,7 @@
 							<a href="#" price="11 490">/64Gb </a>
 						</div>
 						<h3 class="dfprice"><i>5 490</i>  <b></b></h3>
-						<a href="#" class="dfbutton">Заказать</a>
+						<a href="#js-form1" name="js-modal" class="dfbutton">Заказать</a>
 					</div>
 
 					
@@ -169,7 +169,7 @@
 							<a href="#" price="17 490">/128Gb </a>
 						</div>
 						<h3 class="dfprice"><i>5 490</i> <b></b></h3>
-						<a href="#" class="dfbutton">Заказать</a>
+						<a href="#js-form1" name="js-modal" class="dfbutton">Заказать</a>
 					</div>
 
 					
@@ -195,7 +195,7 @@
 							<a href="#" price="17 490">/128Gb </a>
 						</div>
 						<h3 class="dfprice"><i>5 490</i>  <b></b></h3>
-						<a href="#" class="dfbutton">Заказать</a>
+						<a href="#js-form1" name="js-modal" class="dfbutton">Заказать</a>
 					</div>
 
 					
