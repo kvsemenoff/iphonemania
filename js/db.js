@@ -40,8 +40,11 @@ owl.owlCarousel({
 		winW = $(window).width(),
 		winH = $(window).height(),
 		$this = $(this),
-		$price = $this.parents('.dfboxproduct').find('.dfactivelink').html();
-		console.log($price);
+		$size = $this.parents('.dfboxproduct').find('.dfactivelink').html(),
+		$price = $this.parents('.dfboxproduct').find('.dfprice i').html(),
+		$name = $this.parents('.dfboxproduct').find('.dfboxcaption').html(),
+		$color = $this.parents('.dfboxproduct').find('.dfcolorbox a').html();
+		console.log($price, $size, $name);
 		$(id).css("left", winW/2-$(id).width()/2);
 		$(id).css("top", winH/2-$(id).height()/2);
 		$('body').css("overflow-y", "hidden");
