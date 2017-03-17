@@ -97,6 +97,150 @@
 	margin-bottom: 20px !important;
 }
 
+.section_testimonials_db{
+	padding-top: 20px;
+	text-align: center;
+}
+.slider-db{
+	padding-top: 56px;
+	position: relative;
+}
+.db-h1-testimonials{
+	color: #051127;
+	font-family: "SFUIText-Light";
+	font-size: 30px;
+	line-height: 32px;
+	padding-top: 13px;
+}
+.db-img-testimonials{
+	width: 161px !important;
+	height: 161px;
+	margin: 0 auto;
+}
+.db-img-testimonials2{
+	width: 10px !important;
+	height: 10px;
+	margin: 0 auto;
+	margin-top: 37px;
+}
+.db-p-testimonials{
+	color: #051127;
+	font-family: "SFUIText-Light";
+	font-size: 16px;
+	font-style: italic;
+	padding-top: 4px;
+	span{
+		display: block;
+		font-family: "SF-UI-Text-Semibold";
+		font-size: 18px;
+		padding-bottom: 6px;
+	}
+}
+.db-span-testimonials-middle{
+	padding-bottom: 26px !important;
+}
+.slider-right{
+	background: url("../img/db-right.png")no-repeat;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 118px;
+	right: 10px;
+}
+.slider-left{
+	background: url("../img/db-left.png")no-repeat;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 118px;
+	left: 10px;
+}
+.db-form1{
+	width: 320px;
+	background: url("../img/db-zakaz.jpg")no-repeat top center;
+	padding: 20px 0;
+	text-align: center;
+	position: relative;
+	input[type="submit"]{
+		margin-top: 20px;
+		border:none;
+	}
+	input[type="text"]{
+			width: 300px;
+			background-color: #ebebeb;
+			border-radius: 10px;
+			outline: none;
+			border: none;
+			color: #2b91f3;
+			font-size: 20px;
+			font-family: "SFUIText-RegularG2";
+			padding: 10px 0px 10px 15px;
+			margin-top: 15px;
+		}
+		input[type="text"]::-webkit-input-placeholder { color: #2b91f3; }    
+		input[type="text"]::-moz-placeholder { color: #2b91f3; }
+		h1{
+		color: #f2f2f2;
+		font-size: 25px;
+		font-family: "SF-UI-Text-Semibold";
+		text-align: center;
+		padding-bottom: 20px;
+		text-transform: uppercase;
+		}
+	.kres{
+		position: absolute;
+		top: 15px;
+		right: 15px;
+		cursor: pointer;
+	}
+}
+.db-form2{
+	padding: 20px 0;
+	background: url("../img/db-zakaz.jpg")no-repeat top center;
+	width: 320px;
+	text-align: center;
+	position: relative;
+	p{
+		color: #f2f2f2;
+		font-size: 18px;
+		font-family: "SF-UI-Text-Semibold";
+	}
+	h1{
+		color: #f2f2f2;
+		font-size: 20px;
+		font-family: "SF-UI-Text-Semibold";
+		text-align: center;
+		padding-bottom: 20px;
+		text-transform: uppercase;
+		}
+	.kres2{
+		position: absolute;
+		top: 15px;
+		right: 13px;
+		cursor: pointer;
+	}
+}
+.mask{
+	position: fixed;
+	background: #000;
+	top: 0;
+	left: 0;
+	opacity: 0.8;
+	display: block;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	display:none;
+}
+#js-form1, #js-form2{
+	z-index: 1000;
+	position: fixed;
+	top:0;
+	left: 0;
+	display: none;
+}
+
+
 @media only screen and (min-width : 320px) {
 }
 
@@ -107,42 +251,85 @@
 }
 
 @media only screen and (min-width : 992px) {
-
+	.db-form1{
+	width: 600px;
+	background: url("../img/db-zakaz.jpg")no-repeat top center;
+	padding: 20px 0;
+	text-align: center;
+	position: relative;
+	input[type="submit"]{
+		margin-top: unset;
+		border:none;
+	}
+	.kres{
+		position: absolute;
+		top: 15px;
+		right: 35px;
+		cursor: pointer;
+	}
+}
+.db-form2{
+	padding: 20px 0;
+	background: url("../img/db-zakaz.jpg")no-repeat top center;
+	width: 600px;
+	text-align: center;
+	position: relative;
+	p{
+		color: #f2f2f2;
+		font-size: 20px;
+		font-family: "SF-UI-Text-Semibold";
+	}
+	.kres2{
+		position: absolute;
+		top: 15px;
+		right: 35px;
+		cursor: pointer;
+	}
+}
+	.section_testimonials_db{
+		padding: 40px 0;
+	}
+	.slider-right{
+		right: 24px;
+	}
+	.slider-left{
+		left: 12px;
+	}
 	.section_first_view{
-	background:url("../img/db-first.jpg")no-repeat top center;
-	padding: 80px 0;
-	background-size: cover;
-}
-.db-first-h1{
-	color: #f2f2f2;
-	font-size: 35px;
-	font-family: "SF-UI-Text-Semibold";
-	text-align: center;
-	padding-bottom: 63px;
-}
-.db-first-p{
-	color: #f2f2f2;
-	font-size: 30px;
-	font-family: "SFUIText-RegularG2";
-	text-align: center;
-}
-.db-timer{
-	max-width: 430px !important;
-	font-weight: normal;
-	padding: 20px 35px !important;
-}
-.db-timer-title{
-	margin-bottom: 10px !important;
-	font-size: 26px !important;
-}
-.db-timer-bot{
-	margin-top: 10px !important;
-	font-size: 29px !important;
-}
-.db-first-a{
-	margin-top: 27px !important;
-	margin-bottom: 42px !important;
-}
+		background:url("../img/db-first.jpg")no-repeat top center;
+		padding: 80px 0;
+		background-size: cover;
+	}
+	.db-first-h1{
+		color: #f2f2f2;
+		font-size: 35px;
+		font-family: "SF-UI-Text-Semibold";
+		text-align: center;
+		padding-bottom: 63px;
+	}
+	.db-first-p{
+		color: #f2f2f2;
+		font-size: 30px;
+		font-family: "SFUIText-RegularG2";
+		text-align: center;
+	}
+	.db-timer{
+		max-width: 430px !important;
+		font-weight: normal;
+		padding: 20px 35px !important;
+	}
+	.db-timer-title{
+		margin-bottom: 10px !important;
+		font-size: 26px !important;
+	}
+	.db-timer-bot{
+		margin-top: 10px !important;
+		font-size: 29px !important;
+	}
+	.db-first-a{
+		margin-top: 27px !important;
+		margin-bottom: 42px !important;
+	}
 
 
 	.db-all-fast{
@@ -154,6 +341,7 @@
 		height: unset;
 		text-align: center;
 		padding: 20px 0 40px 0;
+		background-size: cover;
 	}
 	.db-fast-h1{
 		font-size: 32px;
