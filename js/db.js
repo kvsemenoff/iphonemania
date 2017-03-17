@@ -71,6 +71,7 @@ owl.owlCarousel({
 	function cleanTnanks(form){
 		$('.js-window').hide();
 		$("input[type=text]").val("");
+		$("input[type=hidden]").val("");
 		$('a[href=#js-form2]').trigger('click');
 				// location = "thanks.php";
 			};
