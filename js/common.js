@@ -168,6 +168,36 @@ $(document).ready(function(){
             myMap.controls.add('mapTools');
             myMap.geoObjects.add(myPlacemark);
         }
+
+
+
+
+
+
+
+
+
+
+        $('.dfgigs a').on('click', function(e){
+          e.preventDefault();
+          var price = $(this).attr('price');
+          $(this).parents('.dfcharacteristics')
+          .find('.dfactivelink')
+          .removeClass('dfactivelink');
+
+          $(this).addClass('dfactivelink');
+          $(this).parents('.dfcharacteristics').find('.dfprice').find('i').text(price);
+        });
+
+        $('.dfcolorbox a').on('click',function(evt) { 
+          evt.preventDefault();       
+          var imgPath = $(this).attr('href');         
+          var oldImage = $('.dfcatalogimg img');              
+          var newImage = $('<img src="' + imgPath +'">'); 
+          $(this).parents('.dfboxproduct').find('.dfcatalogimg').html(newImage);                  
+        });
+
+        
  });
 
 
