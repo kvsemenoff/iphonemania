@@ -42,7 +42,7 @@ owl.owlCarousel({
 	$('#js-mask, .js-cres').on("click", function(){
 		$('#js-mask').hide();
 		$('.js-window').hide();
-
+		$('body').removeAttr("style");
 	});
 
 	/*MODAL SUBMIT*/
