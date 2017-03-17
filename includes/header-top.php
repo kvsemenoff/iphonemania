@@ -88,7 +88,7 @@
 				<span class="dd-timer-bot">и получи подарок!</span>
 			</div>
 			<div class="dd-but-wrap">
-				<a href="#js-form2" name="js-modal" class="button2 ">Заказать</a>
+				<a href="#js-form1" name="js-modal" class="button2 ">Заказать</a>
 			</div>
 		</div>
 		<div class="clearfix"></div>
