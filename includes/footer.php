@@ -40,5 +40,4 @@
 			<p>Наш менеджер свяжется с вами.</p>
 		</div>
 	</div>
-<a href="#js-form1" name="js-modal">FORM1</a>
 <a href="#js-form2" name="js-modal"></a>
