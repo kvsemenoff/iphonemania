@@ -26,12 +26,22 @@ owl.owlCarousel({
 
 });
 
+// $('#js-form1').on("click", function(){
+
+// var $this = $(this),
+
+
+// });
+
 /*MODAL WINDOW*/
 	$('a[name="js-modal"]').on("click", function(e){
 		e.preventDefault();
 		var  id = $(this).attr('href'),
 		winW = $(window).width(),
-		winH = $(window).height();
+		winH = $(window).height(),
+		$this = $(this),
+		$price = $this.parents('.dfboxproduct').find('.dfgigs a').html();
+		console.log($price);
 		$(id).css("left", winW/2-$(id).width()/2);
 		$(id).css("top", winH/2-$(id).height()/2);
 		$('body').css("overflow-y", "hidden");
