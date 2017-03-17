@@ -30,10 +30,10 @@
 			<input type="text" name="uname" placeholder="Имя"><br>
 			<input type="text" name="phone" placeholder="Телефон" class="js-phone">
 			<input type="submit" name="submit" value="Заказать" class="button1">
-			<input type="hidden" name="name" value="">
-			<input type="hidden" name="price" value="">
-			<input type="hidden" name="size" value="">
-			<input type="hidden" name="color" value="">
+			<input type="hidden" name="name">
+			<input type="hidden" name="price">
+			<input type="hidden" name="size">
+			<input type="hidden" name="color">
 		</form>
 	</div>
 </div>
