@@ -191,10 +191,14 @@ $(document).ready(function(){
 
         $('.dfcolorbox a').on('click',function(evt) { 
           evt.preventDefault();       
+          var getcolor = $(this).attr('color'); 
+
           var imgPath = $(this).attr('href');         
           var oldImage = $('.dfcatalogimg img');              
-          var newImage = $('<img src="' + imgPath +'">'); 
-          $(this).parents('.dfboxproduct').find('.dfcatalogimg').html(newImage);                  
+          var newImage = $('<img src="' + imgPath +'" color="' + getcolor + '">' ); 
+          $(this).parents('.dfboxproduct').find('.dfcatalogimg').html(newImage); 
+
+
         });
 
         
