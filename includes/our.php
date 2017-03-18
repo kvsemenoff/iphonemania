@@ -32,7 +32,7 @@
 						</div>
 						<span class="dd-timer-bot">и получи подарок!</span>
 					</div>
-					<a href="#" class="button1 our-btn">Заказать</a>
+					<a href="#js-form1" name="js-modal" class="button1 our-btn">Заказать</a>
 				</div>
 			</div>
 			<div class="col-md-7 our-right hidden-xs hidden-sm">
