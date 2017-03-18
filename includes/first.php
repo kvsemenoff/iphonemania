@@ -22,7 +22,7 @@
                         </div>
                         <span class="dd-timer-bot db-timer-bot">и получи подарок!</span>
                     </div>
-                    <a href="#" class="button1 db-first-a">Заказать</a>
+                    <a href="#js-form1" name="js-modal" class="button1 db-first-a">Заказать</a>
            <p class="db-first-p">Постоянным клиентам скидка!!!</p>
 		</div>
 	</div>
