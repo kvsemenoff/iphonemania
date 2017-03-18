@@ -6,12 +6,12 @@
 	</div>
 	<div class="my-container">
 
-		<div class="dd-main-menu">
+		<div class="dd-main-menu" id="menu">
 			<ul>
-				<li><a href="#">Товары</a></li>
-				<li><a href="#">О нас</a></li>
-				<li><a href="#">Отзывы</a></li>
-				<li><a href="#">Контакты</a></li>
+				<li><a href="#product">Товары</a></li>
+				<li><a href="#about">О нас</a></li>
+				<li><a href="#testimon">Отзывы</a></li>
+				<li><a href="#contacts">Контакты</a></li>
 			</ul>
 		</div>
 		

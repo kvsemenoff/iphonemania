@@ -1,4 +1,4 @@
-<section class="section section_padding db_footer-view">
+<section class="section section_padding db_footer-view" id="contacts">
 	<div class=" container">
 		<div class="row">
 			<div class="col-md-6">
@@ -27,7 +27,7 @@
 		<h1 class="db-fast-h1">Быстрый заказ</h1>
 		<img src="../img/kres.png" alt="img" class="kres js-cres">
 		<form action="#" method="post" class="db-fast-form js-submit">
-			<input type="text" name="uname" placeholder="Имя"><br>
+			<input type="text" name="uname" placeholder="Имя" required><br>
 			<input type="text" name="phone" placeholder="Телефон" class="js-phone">
 			<input type="submit" name="submit" value="Заказать" class="button1">
 			<input type="hidden" name="name">

@@ -1,4 +1,4 @@
-<section class="section section_padding our">
+<section class="section section_padding our" id="about">
 	<div class="col-md-7 our-right hidden-md hidden-lg">
 		<div class="container">
 			<h2 class="our-title hidden-lg hidden-md">Наши преимущества</h2>

@@ -1,4 +1,4 @@
-<section class="section dfsection_padding">
+<section class="section dfsection_padding" id="product">
 	<div class="dfcontainer">
 
 		<div class="dfcatalogblock">
